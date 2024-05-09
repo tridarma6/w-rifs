@@ -46,36 +46,37 @@ export default function RootLayout({
 						<main className="container mx-auto max-w-screen-xl pt-16 px-12 flex-grow">
 							{children}
 						</main>
-						<div className="h-max bg-regal-blue">
-							<footer className="flex static flex-wrap gap-6">
-								<div className="pt-4 flex-1 flex-grow flex-shrink text-white">
-									<h1>ITCC 2024</h1>
-									<p className="text-base text-white py-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio architecto omnis soluta sapiente laborum molestias id quaerat consectetur maiores nam!</p>
-									<div className="flex p-0 h-16 w-16 leading-16 justify-content-between">
-										<Image className="block py-2 px-0 mx-1" src="/instagram.svg" alt="Instagram" width={24} height={24}/>
-										<Image className="block py-2 px-0 mx-1" src="/twitter.svg" alt="twitter" width={24} height={24}/>
-										<Image className="block py-2 px-0 mx-1" src="/facebook.svg" alt="facebook" width={24} height={24}/>
-										<Image className="block py-2 px-0 mx-1" src="/youtube.svg" alt="youtube" width={24} height={24}/>
+						<div className="h-max w-full bg-regal-blue mt-6">
+							<footer className="flex static flex-wrap gap-6 mt-6 ml-24 py-6 mb-10">
+								<div className="flex-1 flex-grow flex-shrink text-white w-48">
+									<p className="text-white text-2xl font-bold">ITCC 2024</p>
+									<p className="text-white mt-2.5 w-96 text-sm/[18px] text-balance">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nobis cum voluptate necessitatibus dolores aliquid assumenda cumque eligendi, esse natus ratione in voluptates veritatis ipsam.</p>
+									<div className="flex h-16 w-16 gap-x-5 mt-5">
+										<Image className="block py-2 px-0 mx-3" src="/instagram.svg" alt="Instagram" width={24} height={24}/>
+										<Image className="block py-2 px-0 mx-3" src="/twitter.svg" alt="twitter" width={24} height={24}/>
+										<Image className="block py-2 px-0 mx-3" src="/facebook.svg" alt="facebook" width={24} height={24}/>
+										<Image className="block py-2 px-0 mx-3" src="/youtube.svg" alt="youtube" width={24} height={24}/>
 									</div>
 								</div>
 
-								<div className="pt-4 flex-1 flex-grow flex-shrink w-25rem text-white pl-10">
-									<h2 className="text-2xl">Competition</h2>
-									<div className="p-0 h-16 w-16 leading-16 text-start px-0">
-										<Link href="#" className="block py-2 px-0 text-lg  text-white">Programming</Link>
-										<Link href="#" className="block py-2 px-0 text-lg  text-white">KGP</Link>
-										<Link href="#" className="block py-2 px-0 text-lg  text-white">WebDesign</Link>
-										<Link href="#" className="block py-2 px-0 text-lg  text-white">UI UX</Link>
+								<div className="flex-1 flex-grow flex-shrink text-white pl-10">
+									<h2 className="text-2xl font-semibold">Competition</h2>
+									<div className="p-0 h-16 leading-16 text-start px-0 text-base">
+										<Link href="#" className="block py-3 px-0 text-lg  text-white text-nowrap">Programming</Link>
+										<Link href="#" className="block py-3 px-0 text-lg  text-white text-nowrap">KGP</Link>
+										<Link href="#" className="block py-3 px-0 text-lg  text-white text-nowrap">Web Design</Link>
+										<Link href="#" className="block px-0 text-lg  text-white text-nowrap">UI UX</Link>
 									</div>
 								</div>
-								<div className="pt-4 flex-1 flex-grow flex-shrink w-25rem text-white">
-									<h2 className="text-2xl">Other</h2>
-									<div className="p-0 h-16 w-16 leading-16 text-start px-0">
-										<Link href="#"className="block py-2 px-0 text-lg  text-white">SeminarNasional</Link>
-										<Link href="#" className="block py-2 px-0 text-lg  text-white">WorkshopPcozzy</Link>
+								<div className="flex-1 flex-grow flex-shrink text-white pl-0">
+									<h2 className="text-2xl font-semibold">Other</h2>
+									<div className="p-0 h-16 leading-16 text-start px-0 text-base">
+										<Link href="#"className="block py-3 px-0 text-lg  text-white text-nowrap">Seminar Nasional</Link>
+										<Link href="#" className="block px-0 text-lg  text-white text-nowrap">Workshop P'cozzy</Link>
 									</div>
 								</div>
 							</footer>
+							<p className="ml-24 px-4 py-4 border-t-1 border-gray-100 w-11/12 font-bold text-2xl text-white justify-start">Logo</p>
 						</div>
 					</div>
 				</Providers>

@@ -42,7 +42,7 @@ export const Navbar = () => {
 			</NavbarContent>
 
 			<NavbarContent className=" justify-center items-center hidden lg:flex">
-				<ul className="hidden lg:flex gap-10 flex-grow m-15">
+				<ul className="hidden lg:flex gap-10 flex-grow m-15" style={{ fontFamily: 'Poppins, sans-serif' }}>
 					{siteConfig.navItems.map((item, index) => (
 						index !== 0 &&
 						<NavbarItem key={item.href} className="m-15">

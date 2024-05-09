@@ -5,11 +5,11 @@ import {Input, Button} from "@nextui-org/react";
 export default function Home() {
 	return (
 		<>
-			<Star1/>
-			<section className="relative py-8 p-20 md:py-10 max-w-3xl mx-auto z-0">
-				<RegisterForm />
-			</section>
-			<Star2/>
+			<Star1 />
+				<section className="relative py-8 p-20 md:py-10 max-w-3xl mx-auto z-0">
+					<RegisterForm />
+				</section>
+			<Star2 />
 		</>
 
 	);
@@ -72,7 +72,7 @@ const Star1 = () => {
 const Star2 = () => {
 
 	return(
-		<div className="flex justify-end">
+		<div className="flex justify-end pr-60">
 			<Image src="/star2.svg" alt="star" width={40} height={40}/>
 		</div>
 	);
