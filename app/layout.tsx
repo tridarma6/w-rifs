@@ -46,41 +46,50 @@ export default function RootLayout({
 						<main className="container mx-auto max-w-screen-xl pt-16 px-12 flex-grow">
 							{children}
 						</main>
-						<div className="h-max w-full bg-regal-blue mt-6">
-							<footer className="flex static flex-wrap gap-6 mt-6 ml-24 py-6 mb-10">
-								<div className="flex-1 flex-grow flex-shrink text-white w-48">
-									<p className="text-white text-2xl font-bold">ITCC 2024</p>
-									<p className="text-white mt-2.5 w-96 text-sm/[18px] text-balance">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nobis cum voluptate necessitatibus dolores aliquid assumenda cumque eligendi, esse natus ratione in voluptates veritatis ipsam.</p>
-									<div className="flex h-16 w-16 gap-x-5 mt-5">
-										<Image className="block py-2 px-0 mx-3" src="/instagram.svg" alt="Instagram" width={24} height={24}/>
-										<Image className="block py-2 px-0 mx-3" src="/twitter.svg" alt="twitter" width={24} height={24}/>
-										<Image className="block py-2 px-0 mx-3" src="/facebook.svg" alt="facebook" width={24} height={24}/>
-										<Image className="block py-2 px-0 mx-3" src="/youtube.svg" alt="youtube" width={24} height={24}/>
-									</div>
-								</div>
-
-								<div className="flex-1 flex-grow flex-shrink text-white pl-10">
-									<h2 className="text-2xl font-semibold">Competition</h2>
-									<div className="p-0 h-16 leading-16 text-start px-0 text-base">
-										<Link href="#" className="block py-3 px-0 text-lg  text-white text-nowrap">Programming</Link>
-										<Link href="#" className="block py-3 px-0 text-lg  text-white text-nowrap">KGP</Link>
-										<Link href="#" className="block py-3 px-0 text-lg  text-white text-nowrap">Web Design</Link>
-										<Link href="#" className="block px-0 text-lg  text-white text-nowrap">UI UX</Link>
-									</div>
-								</div>
-								<div className="flex-1 flex-grow flex-shrink text-white pl-0">
-									<h2 className="text-2xl font-semibold">Other</h2>
-									<div className="p-0 h-16 leading-16 text-start px-0 text-base">
-										<Link href="#"className="block py-3 px-0 text-lg  text-white text-nowrap">Seminar Nasional</Link>
-										<Link href="#" className="block px-0 text-lg  text-white text-nowrap">Workshop P'cozzy</Link>
-									</div>
-								</div>
-							</footer>
-							<p className="ml-24 px-4 py-4 border-t-1 border-gray-100 w-11/12 font-bold text-2xl text-white justify-start">Logo</p>
-						</div>
+						<Footer />
 					</div>
 				</Providers>
 			</body>
 		</html>
+	);
+}
+
+const Footer = () => {
+	return(
+		<div className="h-max w-full bg-regal-blue mt-6 bottom-0">
+			<footer className="flex static flex-wrap gap-6 mt-6 ml-24 py-6 mb-10">
+				<div className="flex-1 flex-grow flex-shrink text-white w-48">
+					<p className="text-white text-2xl font-bold">ITCC 2024</p>
+					<p className="text-white mt-2.5 w-96 text-sm/[18px] text-balance">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nobis cum voluptate necessitatibus dolores aliquid assumenda cumque eligendi, esse natus ratione in voluptates veritatis ipsam.</p>
+					<div className="flex h-16 w-16 gap-x-5 mt-5">
+						<Image className="block py-2 px-0 mx-3" src="/instagram.svg" alt="Instagram" width={24} height={24}/>
+						<Image className="block py-2 px-0 mx-3" src="/twitter.svg" alt="twitter" width={24} height={24}/>
+						<Image className="block py-2 px-0 mx-3" src="/facebook.svg" alt="facebook" width={24} height={24}/>
+						<Image className="block py-2 px-0 mx-3" src="/youtube.svg" alt="youtube" width={24} height={24}/>
+					</div>
+				</div>
+
+				<div className="flex-1 flex-grow flex-shrink text-white pl-10">
+					<h2 className="text-2xl font-semibold">Competition</h2>
+					<div className="p-0 h-16 leading-16 text-start px-0 text-base">
+						<Link href="#" className="block py-3 px-0 text-lg  text-white text-nowrap">Programming</Link>
+						<Link href="#" className="block py-3 px-0 text-lg  text-white text-nowrap">KGP</Link>
+						<Link href="#" className="block py-3 px-0 text-lg  text-white text-nowrap">Web Design</Link>
+						<Link href="#" className="block px-0 text-lg  text-white text-nowrap">UI UX</Link>
+					</div>
+				</div>
+				<div className="flex-1 flex-grow flex-shrink text-white pl-0">
+					<h2 className="text-2xl font-semibold">Other</h2>
+					<div className="p-0 h-16 leading-16 text-start px-0 text-base">
+						<Link href="#"className="block py-3 px-0 text-lg  text-white text-nowrap">Seminar Nasional</Link>
+						<Link href="#" className="block px-0 text-lg  text-white text-nowrap">Workshop P&apos;cozzy</Link>
+					</div>
+				</div>
+			</footer>
+			<div className="ml-24 flex w-11/12 border-t-1 border-gray-100">
+							<p className="ml-15 px-4 py-4 w-11/12 font-bold text-3xl text-white justify-start">Logo</p>
+							<Image className="flex justify-end w-14 h-12 mr-5 m-5" src="/dropdown-icon.svg" alt="dropdown" />
+							</div>
+		</div>
 	);
 }
