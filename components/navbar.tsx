@@ -26,7 +26,7 @@ import {
 	HeartFilledIcon,
 	SearchIcon,
 } from "@/components/icons";
-
+import { Html, Head, Main, NextScript } from 'next/document';
 import { Logo } from "@/components/icons";
 
 export const Navbar = () => {

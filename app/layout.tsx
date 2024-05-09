@@ -77,7 +77,7 @@ export default function RootLayout({
 								</div>
 							</footer>
 							<div className="ml-24 flex w-11/12 border-t-1 border-gray-100">
-							<p className="ml-15 px-4 py-4 w-11/12 font-bold text-2xl text-white justify-start">Logo</p>
+							<p className="ml-15 px-4 py-4 w-11/12 font-bold text-3xl text-white justify-start">Logo</p>
 							<Image className="flex justify-end w-14 h-12 mr-5 m-5" src="/dropdown-icon.svg" alt="dropdown" />
 							</div>
 						</div>
