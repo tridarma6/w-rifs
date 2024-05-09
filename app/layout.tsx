@@ -57,7 +57,7 @@ export default function RootLayout({
 const Footer = () => {
 	return(
 		<div className="h-max w-full bg-regal-blue mt-6 bottom-0">
-			<footer className="flex static flex-wrap gap-6 mt-6 ml-24 py-6 mb-10">
+			<footer className="flex justify-center static flex-wrap gap-6 mt-6 ml-24 py-6 mb-10">
 				<div className="flex-1 flex-grow flex-shrink text-white w-48">
 					<p className="text-white text-2xl font-bold">ITCC 2024</p>
 					<p className="text-white mt-2.5 w-96 text-sm/[18px] text-balance">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nobis cum voluptate necessitatibus dolores aliquid assumenda cumque eligendi, esse natus ratione in voluptates veritatis ipsam.</p>
