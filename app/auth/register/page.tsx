@@ -7,7 +7,7 @@ export default function Register() {
 		<>
 			<Star1 />
 				<section className="relative py-8 p-20 md:py-10 max-w-3xl mx-auto z-0">
-					<RegisterSuccess />
+					<RegisterForm />
 				</section>
 			<Star2 />
 		</>
