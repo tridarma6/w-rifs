@@ -61,7 +61,6 @@ const RegisterForm = () => {
 }
 
 const Star1 = () => {
-
 	return(
 		<div className="pl-60">
 			<Image src="/star1.svg" alt="star" width={40} height={40}/>
@@ -70,7 +69,6 @@ const Star1 = () => {
 }
 
 const Star2 = () => {
-
 	return(
 		<div className="flex justify-end pr-60">
 			<Image src="/star2.svg" alt="star" width={40} height={40}/>

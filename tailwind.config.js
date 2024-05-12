@@ -12,6 +12,9 @@ module.exports = {
       colors: {
         'regal-blue': '#328AC9',
         'white': '#FFFFFF'
+      },
+      width: {
+        '1171': '1171px',
       }
     },
   },
