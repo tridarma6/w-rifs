@@ -26,13 +26,12 @@ import {
 	HeartFilledIcon,
 	SearchIcon,
 } from "@/components/icons";
-import { Html, Head, Main, NextScript } from 'next/document';
 import { Logo } from "@/components/icons";
 
 export const Navbar = () => {
 
 	return (
-		<NextUINavbar maxWidth="xl" position="sticky">
+		<NextUINavbar id="header" maxWidth="xl" position="sticky">
 			<NavbarContent className="basis-1/5 sm:basis-full flex justify-between items-center"> {/* Mengubah justify="start" menjadi justify="between" dan menambahkan items-center */}
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1 ml-10" href="/">

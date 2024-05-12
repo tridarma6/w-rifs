@@ -14,7 +14,7 @@ export default function Home() {
 					<div className="flex">
 						<Image className="ml-20 mt-32" src="row-icon.svg" alt="icon row" />
 						<Image className="ml-16 mr-20 mt-4" src="2024-icon.svg" alt="tulisan itcc"/>
-						<p className="text-base text-balance mt-4 leading-9 ml-26 font-medium font-semibold">Innovation of Technology to Build the Digital Capabilities of Indonesia's Generation</p>
+						<p className="text-base text-balance mt-4 leading-9 ml-26 font-medium font-semibold">Innovation of Technology to Build the Digital Capabilities of Indonesia Generation</p>
 					</div>
 					<div className="flex">
 						<p className="flex justify-start text-primary ml-40 text-4xl font-sans">Scroll Down</p>
