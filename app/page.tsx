@@ -108,6 +108,10 @@ export default function Home() {
 				/>
 
 			</div>
+
+			<div className="banner-besar mt-36">
+				<Image src="banner-pcozzy.svg"/>
+			</div>
 		</>
 	);
 }
