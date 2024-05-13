@@ -13,7 +13,6 @@ module.exports = {
         'regal-blue': '#328AC9',
         'white': '#FFFFFF',
         'biru-hijau': '#6AD5BF',
-
       },
       width: {
         '1261': '1261px',
@@ -45,7 +44,7 @@ module.exports = {
       },
       marginLeft: {
         '395' : '395px',
-      },
+      }
     },
   },
   darkMode: "class",

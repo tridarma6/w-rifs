@@ -115,8 +115,16 @@ export default function Home() {
 
 			</div>
 
-			<div className="mt-36 container ">
-				<Image src="banner-pcozzy.svg" alt="banner pcozzy"/>
+			<div className="mt-36 relative">
+    			<Image src="banner-pcozzy.svg" alt="banner pcozzy" className="z-0"/>
+    			<div className="flex w-full absolute inset-0 bottom-0">
+        			<div className="absolute inset-0 flex justify-start items-center">
+            			<p className="font-semibold text-white ml-24 text-[48px]">Workshop P’Cozzy</p>
+        			</div>
+        			<div className="absolute inset-0 top-[70px] mr-16 flex justify-end items-stretch items-center">
+            			<Image src="banner-zoom.svg" alt="gambar" width={441} height={316}/>
+        			</div>
+    			</div>
 			</div>
 		</>
 	);
