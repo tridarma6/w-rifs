@@ -56,7 +56,7 @@ export const Navbar = () => {
 								{item.label === "Competition" ? (
 									<>
 										{item.label}
-										<Image src="path/to/image" alt="Image Alt Text" />
+										<Image src="arrow-down.svg" alt="arrow" width={9} height={5}/>
 									</>
 								) : (
 									item.label
