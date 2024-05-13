@@ -65,8 +65,11 @@ export default function Home() {
 			</div>
 			<div className="container mt-28">
 				<div className="w-[1187px] h-[486px] flex justify-between bg-regal-blue border-hidden border-2 border-regal-blue rounded-[20px]">
-					<div className="bg-regal-blue w-[593.5px] text-white m-0 rounded-l-[20px]">
-						<Image src="banner-blue.svg" className=""/>
+					<div className="relative bg-regal-blue w-[593.5px] text-white m-0 rounded-l-[20px]">
+						<Image src="banner-blue.svg" className="z-0"/>
+						<div className="absolute inset-0 bottom-0 flex justify-center items-stretch">
+							<p className="text-white text-[48px] font-bold z-10 self-end mx-10 my-10 tracking-[0.1em]">Programming</p>
+						</div>
 					</div>
 					<div className="relative bg-regal-blue w-[593.5px] text-white m-0 rounded-r-[20px]">
 						<div className="ml-[52.1px] mr-10 mt-[-0.21px] mt-[49.93px]">
@@ -84,8 +87,11 @@ export default function Home() {
 				</div>
 
 				<div className="w-[1187px] h-[486px] flex justify-between bg-regal-blue border-hidden border-2 border-biru-hijau rounded-[20px] mt-16">
-					<div className="bg-biru-hijau w-[593.5px] text-white m-0 rounded-l-[20px]">
-						<Image src="banner-green.svg" className=""/>
+					<div className="relative bg-biru-hijau w-[593.5px] text-white m-0 rounded-l-[20px]">
+						<Image src="banner-green.svg" className="z-0"/>
+						<div className="absolute inset-0 bottom-0 flex justify-center items-stretch">
+							<p className="text-white text-[48px] font-bold z-10 self-end mx-10 my-10 tracking-[0.1em]">Web Design</p>
+						</div>
 					</div>
 					<div className="relative bg-biru-hijau w-[593.5px] text-white m-0 rounded-r-[20px]">
 						<div className="ml-[52.1px] mr-10 mt-[-0.21px] mt-[49.93px]">
@@ -103,8 +109,11 @@ export default function Home() {
 				</div>
 
 				<div className="w-[1187px] h-[486px] flex justify-between bg-regal-blue border-hidden border-2 border-regal-blue rounded-[20px] mt-16">
-					<div className="bg-regal-blue w-[593.5px] text-white m-0 rounded-l-[20px]">
-						<Image src="banner-blue.svg" className=""/>
+				<div className="relative bg-regal-blue w-[593.5px] text-white m-0 rounded-l-[20px]">
+						<Image src="banner-blue.svg" className="z-0"/>
+						<div className="absolute inset-0 bottom-0 flex justify-center items-stretch">
+							<p className="text-white text-[48px] font-bold z-10 self-end mx-10 my-10 tracking-[0.1em]">UI UX</p>
+						</div>
 					</div>
 					<div className="relative bg-regal-blue w-[593.5px] text-white m-0 rounded-r-[20px]">
 						<div className="ml-[52.1px] mr-10 mt-[-0.21px] mt-[49.93px]">
@@ -122,8 +131,11 @@ export default function Home() {
 				</div>
 
 				<div className="w-[1187px] h-[486px] flex justify-between bg-regal-blue border-hidden border-2 border-biru-hijau rounded-[20px] mt-16">
-					<div className="bg-biru-hijau w-[593.5px] text-white m-0 rounded-l-[20px]">
-						<Image src="banner-green.svg" className=""/>
+					<div className="relative bg-hijau-biru w-[593.5px] text-white m-0 rounded-l-[20px]">
+						<Image src="banner-green.svg" className="z-0"/>
+						<div className="absolute inset-0 bottom-0 flex justify-center items-stretch">
+							<p className="text-white text-[48px] font-bold z-10 self-end mx-10 my-10 tracking-[0.1em]">KGP</p>
+						</div>
 					</div>
 					<div className="relative bg-biru-hijau w-[593.5px] text-white m-0 rounded-r-[20px]">
 						<div className="ml-[52.1px] mr-10 mt-[-0.21px] mt-[49.93px]">
