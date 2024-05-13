@@ -10,19 +10,19 @@ export const siteConfig = {
 		},
     {
       label: "Competition",
-      href: "app/Competition",
+      href: "/competition",
     },
     {
       label: "Semnas",
-      href: "app/Semnas",
+      href: "/semnas",
     },
     {
       label: "P'cozzy",
-      href: "app/P'cozzy",
+      href: "/pcozzy",
     },
     {
       label: "Merchandise",
-      href: "app/Merchandise",
+      href: "/merchandise",
     }
 	],
 };
