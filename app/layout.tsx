@@ -72,17 +72,17 @@ const Footer = () => {
 				<div className="flex-1 flex-grow flex-shrink text-white pl-10">
 					<h2 className="text-2xl font-semibold">Competition</h2>
 					<div className="p-0 h-16 leading-16 text-start px-0 text-base">
-						<Link href="#" className="block py-3 px-1 text-lg  text-white flex gap-[7px]">Programming <Image src="arrow-right.svg"/></Link>
-						<Link href="#" className="block py-3 px-1 text-lg  text-white flex gap-[7px]">KGP <Image src="arrow-right.svg"/></Link>
-						<Link href="#" className="block py-3 px-1 text-lg  text-white flex gap-[7px]">Web Design <Image src="arrow-right.svg"/></Link>
-						<Link href="#" className="block py-3 px-1 text-lg  text-white flex gap-[7px]">UI UX <Image src="arrow-right.svg"/></Link>
+						<Link href="#" className="block py-3 px-1 text-lg  text-white flex gap-[7px]">Programming <Image src="arrow-right.svg" alt="a"/></Link>
+						<Link href="#" className="block py-3 px-1 text-lg  text-white flex gap-[7px]">KGP <Image src="arrow-right.svg" alt="a"/></Link>
+						<Link href="#" className="block py-3 px-1 text-lg  text-white flex gap-[7px]">Web Design <Image src="arrow-right.svg" alt="a"/></Link>
+						<Link href="#" className="block py-3 px-1 text-lg  text-white flex gap-[7px]">UI UX <Image src="arrow-right.svg" alt="a"/></Link>
 					</div>
 				</div>
 				<div className="flex-1 flex-grow flex-shrink text-white pl-0">
 					<h2 className="text-2xl font-semibold">Other</h2>
 					<div className="p-0 h-16 leading-16 text-start px-0 text-base">
-						<Link href="#"className="block py-3 px-0 text-lg  text-white flex gap-[7px]">Seminar Nasional <Image src="arrow-right.svg"/></Link>
-						<Link href="#" className="block px-0 text-lg  text-white flex gap-[7px]">Workshop P&apos;cozzy <Image src="arrow-right.svg"/></Link>
+						<Link href="/semnas"className="block py-3 px-0 text-lg  text-white flex gap-[7px]">Seminar Nasional <Image src="arrow-right.svg" alt="a"/></Link>
+						<Link href="pcozzy" className="block px-0 text-lg  text-white flex gap-[7px]">Workshop P&apos;cozzy <Image src="arrow-right.svg" alt="a"/></Link>
 					</div>
 				</div>
 			</footer>

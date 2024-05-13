@@ -48,12 +48,19 @@ export const Navbar = () => {
 							<NextLink
 								className={clsx(
 									linkStyles({ color: "foreground" }),
-									"data-[active=true]:text-primary data-[active=true]:font-medium"
+									"data-[active=true]:text-primary data-[active=true]:font-medium flex gap-[7px]"
 								)}
 								color="foreground"
 								href={item.href}
 							>
-								{item.label}
+								{item.label === "Competition" ? (
+									<>
+										{item.label}
+										<Image src="arrow-down.svg" alt="arrow" width={9} height={5}/>
+									</>
+								) : (
+									item.label
+								)}
 							</NextLink>
 						</NavbarItem>
 					))}
