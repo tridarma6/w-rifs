@@ -53,31 +53,91 @@ export default function Home() {
       				<div className="w-full flex justify-center items-center border-solid border-2 rounded-xl border-black w-200 h-130"><Image src="julias-berger-image.svg"/></div>
       				<div className="w-full flex justify-center items-center border-solid border-2 rounded-xl border-black w-200 h-130"><Image src="julias-berger-2.svg"/></div>
       				<div className="w-full flex justify-center items-center border-solid border-2 rounded-xl border-black w-200 h-130"><Image src="julias-berger-2.svg"/></div>
-      				<div className="w-full flex justify-center items-center border-solid border-2 rounded-xl border-black w-200 h-130"><Image src="add-image.svg"/></div>
+      				<div className="w-full flex justify-center items-center border-solid border-2 rounded-xl border-regal-blue w-200 h-130"><Image src="add-image.svg"/></div>
 				</div>
 			</div>
 
 			<div className="mt-44">
-				<div className="flex justify-center ml-[460px]">
+				<div className="flex justify-center ml-[550px]">
 					<Image src="star2.svg" width={40} height={40} className="transform rotate-16.82"/>
 				</div>
-				<h1 className="font-bold text-center text-regal-blue text-4xl">SEE OUR COMPETITION </h1>
+				<h1 className="font-bold text-center text-regal-blue text-4xl tracking-[0.16em]">SEE OUR COMPETITION </h1>
 			</div>
 			<div className="container mt-28">
-				<div className="flex w-[1187px] h-[486px] rounded-[20px]">
-					<Image src="banner-programming.svg" className="z-20"/>
-					<div className="bg-regal-blue w-[593.5px] text-white z-10">
-						<p>A community of Influencers and Tech Personalities forging a stage where  the continent’s brightest minds meet new partners, and, the sharpest innovators to share their visions.</p>
+				<div className="w-[1187px] h-[486px] flex justify-between bg-regal-blue border-hidden border-2 border-regal-blue rounded-[20px]">
+					<div className="bg-regal-blue w-[593.5px] text-white m-0 rounded-l-[20px]">
+						<Image src="banner-blue.svg" className=""/>
+					</div>
+					<div className="relative bg-regal-blue w-[593.5px] text-white m-0 rounded-r-[20px]">
+						<div className="ml-[52.1px] mr-10 mt-[-0.21px] mt-[49.93px]">
+							<p className="font-rubik font-normal text-[20px] text-white flex items-center leading-9">A community of Influencers and Tech Personalities forging a stage where  the continent’s brightest minds meet new partners, and, the sharpest innovators to share their visions.</p>
+						</div>
+						<div className="static flex gap-6">
+							<div className="absolute bottom-0 left-0 mx-10 my-10">
+								<Link href="#" color="foreground" className="text-white text-[32px]">Join <Image src="arrow-right-up.svg"/></Link>
+							</div>
+							<div className="absolute bottom-0 right-0 mx-10 my-10">
+								<Image src="image.png"/>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div className="w-[1187px] h-[486px]">
 
+				<div className="w-[1187px] h-[486px] flex justify-between bg-regal-blue border-hidden border-2 border-biru-hijau rounded-[20px] mt-16">
+					<div className="bg-biru-hijau w-[593.5px] text-white m-0 rounded-l-[20px]">
+						<Image src="banner-green.svg" className=""/>
+					</div>
+					<div className="relative bg-biru-hijau w-[593.5px] text-white m-0 rounded-r-[20px]">
+						<div className="ml-[52.1px] mr-10 mt-[-0.21px] mt-[49.93px]">
+							<p className="font-rubik font-normal text-[20px] text-white flex items-center leading-9">A community of Influencers and Tech Personalities forging a stage where  the continent’s brightest minds meet new partners, and, the sharpest innovators to share their visions.</p>
+						</div>
+						<div className="static flex gap-6">
+							<div className="absolute bottom-0 left-0 mx-10 my-10">
+								<Link href="#" color="foreground" className="text-white text-[32px]">Join <Image src="arrow-right-up.svg"/></Link>
+							</div>
+							<div className="absolute bottom-0 right-0 mx-10 my-10">
+								<Image src="image.png"/>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div className="w-[1187px] h-[486px]">
 
+				<div className="w-[1187px] h-[486px] flex justify-between bg-regal-blue border-hidden border-2 border-regal-blue rounded-[20px] mt-16">
+					<div className="bg-regal-blue w-[593.5px] text-white m-0 rounded-l-[20px]">
+						<Image src="banner-blue.svg" className=""/>
+					</div>
+					<div className="relative bg-regal-blue w-[593.5px] text-white m-0 rounded-r-[20px]">
+						<div className="ml-[52.1px] mr-10 mt-[-0.21px] mt-[49.93px]">
+							<p className="font-rubik font-normal text-[20px] text-white flex items-center leading-9">A community of Influencers and Tech Personalities forging a stage where  the continent’s brightest minds meet new partners, and, the sharpest innovators to share their visions.</p>
+						</div>
+						<div className="static flex gap-6">
+							<div className="absolute bottom-0 left-0 mx-10 my-10">
+								<Link href="#" color="foreground" className="text-white text-[32px]">Join <Image src="arrow-right-up.svg"/></Link>
+							</div>
+							<div className="absolute bottom-0 right-0 mx-10 my-10">
+								<Image src="image.png"/>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div className="w-[1187px] h-[486px]">
 
+				<div className="w-[1187px] h-[486px] flex justify-between bg-regal-blue border-hidden border-2 border-biru-hijau rounded-[20px] mt-16">
+					<div className="bg-biru-hijau w-[593.5px] text-white m-0 rounded-l-[20px]">
+						<Image src="banner-green.svg" className=""/>
+					</div>
+					<div className="relative bg-biru-hijau w-[593.5px] text-white m-0 rounded-r-[20px]">
+						<div className="ml-[52.1px] mr-10 mt-[-0.21px] mt-[49.93px]">
+							<p className="font-rubik font-normal text-[20px] text-white flex items-center leading-9">A community of Influencers and Tech Personalities forging a stage where  the continent’s brightest minds meet new partners, and, the sharpest innovators to share their visions.</p>
+						</div>
+						<div className="static flex gap-6">
+							<div className="absolute bottom-0 left-0 mx-10 my-10">
+								<Link href="#" color="foreground" className="text-white text-[32px]">Join <Image src="arrow-right-up.svg"/></Link>
+							</div>
+							<div className="absolute bottom-0 right-0 mx-10 my-10">
+								<Image src="image.png"/>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</>
