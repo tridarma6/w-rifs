@@ -73,7 +73,7 @@ export default function Home() {
 					</div>
 					<div className="relative bg-regal-blue w-[593.5px] text-white m-0 rounded-r-[20px]">
 						<div className="ml-[52.1px] mr-10 mt-[-0.21px] mt-[49.93px]">
-							<p className="font-rubik font-normal text-[20px] text-white flex items-center leading-9">A community of Influencers and Tech Personalities forging a stage where  the continent’s brightest minds meet new partners, and, the sharpest innovators to share their visions.</p>
+							<p className="font-rubik font-normal text-[20px] text-white flex items-center leading-9">A community of Influencers and Tech Personalities forging a stage where  the continents brightest minds meet new partners, and, the sharpest innovators to share their visions.</p>
 						</div>
 						<div className="static flex gap-6">
 							<div className="absolute bottom-0 left-0 mx-10 my-10">
@@ -107,10 +107,16 @@ export default function Home() {
 					judul="KGP"
 				/>
 
+				<Competition 
+					color="regal-blue" 
+					srcImage="banner-blue.svg" 
+					text="A community of Influencers and Tech Personalities forging a stage where  the continent’s brightest minds meet new partners, and, the sharpest innovators to share their visions."
+					judul="ICT Business Idea"
+				/>
 			</div>
 
 			<div className="banner-besar mt-36">
-				<Image src="banner-pcozzy.svg"/>
+				<Image src="banner-pcozzy.svg" alt=""/>
 			</div>
 		</>
 	);
