@@ -77,7 +77,7 @@ export default function Home() {
 						</div>
 						<div className="static flex gap-6">
 							<div className="absolute bottom-0 left-0 mx-10 my-10">
-								<Link href="#" color="foreground" className="text-white text-[32px]">Join <Image alt="image" src="arrow-right-up.svg"/></Link>
+								<Link href="#" color="foreground" className="text-white text-[32px] gap-3">Join <Image alt="image" src="arrow-right-up.svg"/></Link>
 							</div>
 							<div className="absolute bottom-0 right-0 mx-10 my-10">
 								<Image alt="image" src="image.png"/>
@@ -158,7 +158,7 @@ const CompetitionGreen: React.FC<CompetitionProps> = ({srcImage, text, judul}) =
 				</div>
 				<div className="static flex gap-6">
 					<div className="absolute bottom-0 left-0 mx-10 my-10">
-						<Link href="#" color="foreground" className="text-white text-[32px]">Join <Image src="arrow-right-up.svg" alt="image"/></Link>
+						<Link href="#" color="foreground" className="text-white text-[32px] gap-3">Join <Image src="arrow-right-up.svg" alt="image"/></Link>
 					</div>
 					<div className="absolute bottom-0 right-0 mx-10 my-10">
 						<Image src="image.png" alt="image"/>
@@ -189,7 +189,7 @@ const CompetitionBlue: React.FC<CompetitionProps> = ({srcImage, text, judul}) =>
 				</div>
 				<div className="static flex gap-6">
 					<div className="absolute bottom-0 left-0 mx-10 my-10">
-						<Link href="#" color="foreground" className="text-white text-[32px]">Join <Image src="arrow-right-up.svg" alt="image"/></Link>
+						<Link href="#" color="foreground" className="text-white text-[32px] gap-3">Join <Image src="arrow-right-up.svg" alt="image"/></Link>
 					</div>
 					<div className="absolute bottom-0 right-0 mx-10 my-10">
 						<Image src="image.png" alt="image"/>
