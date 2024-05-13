@@ -106,6 +106,12 @@ export default function Home() {
 					text="A community of Influencers and Tech Personalities forging a stage where  the continent’s brightest minds meet new partners, and, the sharpest innovators to share their visions."
 					judul="KGP"
 				/>
+				<Competition 
+					color="regal-blue" 
+					srcImage="banner-blue.svg" 
+					text="A community of Influencers and Tech Personalities forging a stage where  the continent’s brightest minds meet new partners, and, the sharpest innovators to share their visions."
+					judul="ICT Business Idea"
+				/>
 
 			</div>
 
