@@ -111,13 +111,20 @@ export default function Home() {
 				/>
 			</div>
 
-			<div className="mt-36 relative">
+			<div className="my-36 relative ">
     			<Image src="banner-pcozzy.svg" alt="banner pcozzy" className="z-0"/>
     			<div className="flex w-full absolute inset-0 bottom-0">
-        			<div className="absolute inset-0 flex justify-start items-center">
+        			<div className="flex flex-col absolute inset-0 flex mt-40">
             			<p className="font-semibold text-white ml-24 text-[48px]">Workshop P’Cozzy</p>
+						<p className="font-rubik font-normal text-[20px] text-white flex leading-9 w-[550px] h-[142px] ml-24">
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora consectetur quidem.
+						</p>
+						<div className="flex gap-4 ml-24">
+							<Button className="bg-white text-regal-blue w-[185px] font-bold text-[20px] px-3 md:py-6">Register</Button>
+							<Button className="bg-transparant border border-white text-white w-[185px] font-bold border-2 text-[20px] px-3 md:py-6">Get to know</Button>
+						</div>
         			</div>
-        			<div className="absolute inset-0 top-[70px] mr-16 flex justify-end items-stretch items-center">
+        			<div className="absolute ml-20 inset-0 top-[70px] mr-16 flex justify-end items-stretch items-center">
             			<Image src="banner-zoom.svg" alt="gambar" width={441} height={316}/>
         			</div>
     			</div>
