@@ -1,15 +1,12 @@
-import {Card, CardHeader, CardBody, CardFooter, Divider, Image, Link} from "@nextui-org/react";
+import {Card, CardHeader, CardBody, CardFooter, Divider, Image} from "@nextui-org/react";
 import React from "react";
 import {Input, Button} from "@nextui-org/react";
-
+import Link from "next/link";
+import { Box2, Box1 } from "@/components/starbox";
 export default function Register() {
 	return (
 		<>
-			<Star1 />
-				<section className="relative py-8 p-20 md:py-10 max-w-3xl mx-auto z-0">
-					<RegisterSuccess />
-				</section>
-			<Star2 />
+			<RegisterForm />
 		</>
 
 	);
@@ -49,7 +46,7 @@ const RegisterForm = () => {
 				<CardFooter className="flex justify-center text-center">
 					<div className="flex justify-center text-center my-3 ">
 						<p>Already have an account? </p>
-						<Link href="#"> login</Link>
+						<Link href="/login"> login</Link>
 					</div>
 				</CardFooter>
 
@@ -57,64 +54,5 @@ const RegisterForm = () => {
 			<Box1/>
 		</div>
 
-	);
-}
-
-const RegisterSuccess = () => {
-	return(
-		<div className="container static">
-			<Box2/>
-			<Card className="w-542 z-20">
-				<CardHeader className="flex justify-center items-center">
-					<div>
-						<h3 className="text-center font-semibold text-xl text-[#328AC9]">Register Successfully</h3>
-					</div>
-				</CardHeader>
-				<CardBody>
-					<div className="pb-4">
-						<p className="flex justify-center font-semibold">Check your email for email verifcation!</p>
-					</div>
-					<div className="px-8 py-3">
-						<p className="pb-3 px-1 font-semibold">Not Receive our message for verification?</p>
-						<Button className="w-full bg-white border border-[#328AC9] border-solid border-2 text-[#328AC9] font-bold text-lg">Re-send</Button>
-					</div>
-				</CardBody>
-			</Card>
-			<Box1/>
-		</div>	
-	);
-}
-
-const Star1 = () => {
-
-	return(
-		<div className="pl-60">
-			<Image src="/star1.svg" alt="star" width={40} height={40}/>
-		</div>
-	);
-}
-
-const Star2 = () => {
-
-	return(
-		<div className="flex justify-end pr-60">
-			<Image src="/star2.svg" alt="star" width={40} height={40}/>
-		</div>
-	);
-}
-
-const Box1 = () => {
-	return(
-		<div className="absolute bottom-0 left-0 z-10">
-			<Image src="/box1.svg" alt="box" width={175} height={175}/>
-		</div>
-	);
-}
-
-const Box2 = () => {
-	return(
-		<div className="absolute right-0 top-0 z-10">
-			<Image src="/box1.svg" alt="box" width={175} height={175}/>
-		</div>
 	);
 }
